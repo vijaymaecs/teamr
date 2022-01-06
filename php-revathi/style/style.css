@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    height: 100px;
+    background-color: tomato;
+    line-height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    color: #FFF;
+}
+
+.slider-block, .card-block, .box-container {
+    margin-bottom: 50px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.box {
+    width: 100%;
+    height: 500px;
+    background-color: tomato;
+}
